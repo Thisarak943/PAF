@@ -72,9 +72,9 @@ const UpdateItem = () => {
     <div>
       
       <div className="flex flex-col items-center p-4">
-      <h2 className="text-2xl font-bold mb-4">Update Item</h2>
+      <h2 className="text-2xl font-bold mb-4">Update Course</h2>
       <form id="itemForm" onSubmit={onSubmit} className="w-full max-w-lg">
-        <label className="block text-sm font-medium text-gray-700">Item ID:</label>
+        <label className="block text-sm font-medium text-gray-700">Course ID:</label>
         <input
           type="text"
           id="itemId"
@@ -84,7 +84,7 @@ const UpdateItem = () => {
           value={formData.itemId}
           className="mt-1 block w-full border border-gray-300 rounded-md p-2"
         />
-        <label className="block text-sm font-medium text-gray-700 mt-4">Item Name:</label>
+        <label className="block text-sm font-medium text-gray-700 mt-4">Course Name:</label>
         <input
           type="text"
           id="itemName"
@@ -94,7 +94,7 @@ const UpdateItem = () => {
           value={formData.itemName}
           className="mt-1 block w-full border border-gray-300 rounded-md p-2"
         />
-        <label className="block text-sm font-medium text-gray-700 mt-4">Item Category:</label>
+        <label className="block text-sm font-medium text-gray-700 mt-4">Course Category:</label>
         <select
           id="itemCategory"
           name="itemCategory"
@@ -103,14 +103,14 @@ const UpdateItem = () => {
           value={formData.itemCategory}
           className="mt-1 block w-full border border-gray-300 rounded-md p-2"
         >
-          <option value="" disabled>Select Item Category</option>
-          <option value="Electronics">Electronics</option>
-          <option value="Clothing">Clothing</option>
-          <option value="Books">Books</option>
-          <option value="Home">Home</option>
+          <option value="" disabled>Select Course Category</option>
+          <option value="Landscape Photography">Landscape Photography</option>
+          <option value="Portrait Photography">Portrait Photography</option>
+          <option value="Wildlife Photography">Wildlife Photography</option>
+          <option value="Street Photography">Street Photography</option>
           <option value="Other">Other</option>
         </select>
-        <label className="block text-sm font-medium text-gray-700 mt-4">Item Quantity:</label>
+        <label className="block text-sm font-medium text-gray-700 mt-4">Course Priority:</label>
         <input
           type="number"
           name="itemQty"
@@ -120,7 +120,7 @@ const UpdateItem = () => {
           value={formData.itemQty}
           className="mt-1 block w-full border border-gray-300 rounded-md p-2"
         />
-        <label className="block text-sm font-medium text-gray-700 mt-4">Item Details:</label>
+        <label className="block text-sm font-medium text-gray-700 mt-4">Course Details:</label>
         <textarea
           name="itemDetails"
           id="itemDetails"
@@ -129,7 +129,7 @@ const UpdateItem = () => {
           value={formData.itemDetails}
           className="mt-1 block w-full border border-gray-300 rounded-md p-2"
         />
-        <label className="block text-sm font-medium text-gray-700 mt-4">Item Image:</label>
+        <label className="block text-sm font-medium text-gray-700 mt-4">Thumbanil:</label>
         <input
           type="file"
           name="itemImage"
@@ -138,7 +138,7 @@ const UpdateItem = () => {
           onChange={onInputChange}
           className="mt-1 block w-full border border-gray-300 rounded-md p-2"
         />
-        <button type="submit" className="mt-4 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">Update Item</button>
+        <button type="submit" className="mt-4 bg-blue-500 text-white font-bold py-2 px-4 rounded hover:bg-blue-700">Update Course</button>
       </form>
 
     </div>
