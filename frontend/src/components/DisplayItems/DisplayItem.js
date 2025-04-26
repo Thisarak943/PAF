@@ -115,8 +115,8 @@ function DisplayItem() {
             <table className="min-w-full bg-white border border-gray-300 mt-6">
                 <thead>
                     <tr className="bg-gray-200">
-                        <th className="py-2 px-4 border">Item Id</th>
-                        <th className="py-2 px-4 border">Item Image</th>
+                        <th className="py-2 px-4 border">Course ID</th>
+                        <th className="py-2 px-4 border">Course Name</th>
                         <th className="py-2 px-4 border">Item Name</th>
                         <th className="py-2 px-4 border">Category</th>
                         <th className="py-2 px-4 border">Quantity</th>
