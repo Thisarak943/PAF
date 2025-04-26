@@ -9,7 +9,7 @@ const Home = () => {
     <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center">
     <h1 className="text-4xl font-bold text-gray-800 mb-6">Welcome Photography</h1>
     <p className="text-lg text-gray-600 mb-8 text-center">
-      Lets start your journey to become a professional photographer.
+      Lets start your journey to become a professional photographer
     </p>
     <div className="flex space-x-4">
       <button
