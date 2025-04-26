@@ -92,7 +92,7 @@ function DisplayItem() {
     );
     return (
         <div className="p-4">
-            <h1 className="text-2xl font-bold mb-4">Inventory Item</h1>
+            <h1 className="text-2xl font-bold mb-4">Course Inventory</h1>
 
             {/* Search Bar */}
             <div className="mb-4">
@@ -116,11 +116,11 @@ function DisplayItem() {
                 <thead>
                     <tr className="bg-gray-200">
                         <th className="py-2 px-4 border">Course ID</th>
+                        <th className="py-2 px-4 border">Thumbanil</th>
                         <th className="py-2 px-4 border">Course Name</th>
-                        <th className="py-2 px-4 border">Item Name</th>
-                        <th className="py-2 px-4 border">Category</th>
-                        <th className="py-2 px-4 border">Quantity</th>
-                        <th className="py-2 px-4 border">Details</th>
+                        <th className="py-2 px-4 border">Course Category</th>
+                        <th className="py-2 px-4 border">Course Priority</th>
+                        <th className="py-2 px-4 border">Course Details</th>
                         <th className="py-2 px-4 border">Action</th>
                     </tr>
                 </thead>
