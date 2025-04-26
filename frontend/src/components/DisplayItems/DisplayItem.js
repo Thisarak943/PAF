@@ -39,7 +39,7 @@ function DisplayItem() {
         const doc = new jsPDF();
         doc.setFontSize(18);
         doc.setFont("helvetica", "bold");
-        doc.text("Inventory Management Report", 105, 20, { align: "center" });
+        doc.text("Photograpy Management Report", 105, 20, { align: "center" });
 
         // Add Border
         doc.setLineWidth(0.5);
@@ -55,7 +55,7 @@ function DisplayItem() {
     const addTableToPDF = (doc) => {
         autoTable(doc, {
             startY: 50,
-            head: [['Item Id', 'Name', 'Category', 'Quantity', 'Details']],
+            head: [['Course ID', 'Course Name', 'Course Category', 'Course Quantity', 'COurse Details']],
             body: inventory.map(item => [
                 item.itemId,
                 item.itemName,
