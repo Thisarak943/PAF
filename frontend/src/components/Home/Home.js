@@ -22,7 +22,7 @@ const Home = () => {
         className="bg-green-500 hover:bg-green-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
         onClick={() => navigate("/allitem")}
       >
-        View Coursess
+        View Courses
       </button>
       <button
         className="bg-red-500 hover:bg-red-700 text-white font-bold py-3 px-6 rounded-lg shadow-lg transform hover:scale-105 transition duration-300 ease-in-out"
